@@ -14,6 +14,7 @@ Example:
     print(rain(walls))  # Output: 6
 """
 
+
 def rain(walls):
     """
     Calculate the total amount of rainwater retained.
@@ -47,6 +48,7 @@ def rain(walls):
             right -= 1
 
     return water_retained
+
 
 if __name__ == "__main__":
     walls = [0, 1, 0, 2, 0, 3, 0, 4]
