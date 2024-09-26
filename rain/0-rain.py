@@ -1,7 +1,9 @@
+#!/usr/bin/python3
+
 def rain(walls):
     if not walls:
         return 0
-    
+
     left, right = 0, len(walls) - 1
     left_max, right_max = 0, 0
     water_retained = 0
